@@ -1,5 +1,5 @@
 const nombre = document.getElementById("usuario")
-const pass = document.getElementById("password")
+const contraseña = document.getElementById("password")
 
 const form = document.getElementById("form")
 const parrafo = document.getElementById("warnings")
@@ -15,7 +15,7 @@ form.addEventListener("submit", e=>{
         entrar = true
     }
     
-    if(pass.value.length <6){
+    if(contraseña.value.length <6){
         warnings+= 'La contraseña no es valida <br>'
         entrar = true 
     }
