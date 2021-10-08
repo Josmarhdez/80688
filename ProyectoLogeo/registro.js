@@ -1,4 +1,4 @@
-const nombre = document.getElementById("name")
+const nombre = document.getElementById("usuario")
 const pass = document.getElementById("password")
 
 const form = document.getElementById("form")
